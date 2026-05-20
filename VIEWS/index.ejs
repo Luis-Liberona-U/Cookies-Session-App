@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <main>
+        <form action="/enviar" method="post">
+
+            <label for="fnombre">Nombre</label>
+            <input type="text" name="nombre" id="fnombre" placeholder="Introduce tu nombre" required>
+            <br>
+
+            <label for="fapellido">Apellido</label>
+            <input type="text" name="apellido" id="fapellido" placeholder="Introduce tu apellido" required>
+            <br>
+
+            <label for="fcorreoelectronico">Correo electrónico</label>
+            <input type="email" name="correoelectronico" id="fcorreoelectronico" placeholder="Introduce tu Correo electrónico" required>
+            <br>
+
+                    <button type="submit" >Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
